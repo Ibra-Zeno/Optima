@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Optima</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <!-- create a nav bar at the top of webpage with three links on the right and a logo on the left -->
+        <div class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="256"
+            height="256"
+            viewBox="0 0 256 256"
+          >
+            <path
+              fill="currentColor"
+              d="M176 156a12 12 0 1 1-12-12a12 12 0 0 1 12 12Zm-84-12a12 12 0 1 0 12 12a12 12 0 0 0-12-12Zm148 24v24a16 16 0 0 1-16 16H32a16 16 0 0 1-16-16v-22.87a113.38 113.38 0 0 1 35.4-82.41L26.34 61.66a8 8 0 0 1 11.32-11.32L63.82 76.5a111.43 111.43 0 0 1 128.55-.19l26-26a8 8 0 0 1 11.32 11.32L204.82 86.5c.75.71 1.5 1.43 2.24 2.17A111.25 111.25 0 0 1 240 168Zm-16 0a96 96 0 0 0-96-96h-.34C74.91 72.18 32 115.75 32 169.13V192h192Z"
+            />
+          </svg>
+        </div>
+        <ul id="nav-links">
+          <li class="nav-link"><a href="./index.html">Home</a></li>
+          <li class="nav-link"><a href="./products.html">Services</a></li>
+          <li class="nav-link" id="contact">
+            <a class="CTA" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Project Control Specialist</h1>
+          <p>Bringing Your Projects to Life with Precision and Expertise</p>
+          <a class="CTA" href="#">Contact</a>
+        </div>
+        <div class="hero-img">
+          <img src="images/Architect-bro.svg" alt="hero-img" />
+        </div>
+      </div>
+      <div class="seen-on">
+        <h2>Connected with:</h2>
+        <div class="logos">
+          <img
+            src="images/Balfour_Beatty_logo.svg.png"
+            class="invert"
+            alt="Balfour Beatty"
+          />
+          <img class="invert" src="images/tclarke.png" alt="TClarke" />
+          <img
+            src="images/mott-macdonald-vector-logo.svg"
+            class="invert"
+            alt="Mott MacDonald"
+          />
+          <img src="images/Underground.png" class="invert" alt="wsj" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="cards">
+        <div class="card">
+          <div class="card-head">
+            <div class="card-img">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="48"
+                viewBox="0 0 48 48"
+              >
+                <g fill="none" stroke="currentColor" stroke-width="4">
+                  <path
+                    stroke-linejoin="round"
+                    d="M5 19h38v22a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V19Zm0-9a2 2 0 0 1 2-2h34a2 2 0 0 1 2 2v9H5v-9Z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m16 31l6 6l12-12"
+                  />
+                  <path stroke-linecap="round" d="M16 5v8m16-8v8" />
+                </g>
+              </svg>
+            </div>
+            <div class="card-title">
+              <h2>Effective Project Planning</h2>
+            </div>
+          </div>
+          <div class="card-inner">
+            <p>
+              Effective planning is the cornerstone of a successful project,
+              ensuring timely completion and stakeholder satisfaction.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <div class="card-img">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M12.005 22.003c-5.523 0-10-4.477-10-10s4.477-10 10-10s10 4.477 10 10s-4.477 10-10 10Zm-3-9v2h-1v2h8v-2h-5v-2h3v-2h-3v-1a1.5 1.5 0 0 1 2.76-.815l1.986-.497a3.501 3.501 0 0 0-6.746 1.312v1h-1v2h1Z"
+                />
+              </svg>
+            </div>
+            <div class="card-title">
+              <h2>Cost Savings</h2>
+            </div>
+          </div>
+          <div class="card-inner">
+            <p>
+              A skilled project control specialist can help you not only stay on
+              schedule but also save costs by identifying and mitigating
+              potential risks before they impact your project's bottom line.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <div class="card-img">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M9 3V1h6v2H9Zm1 11.75l-1.1-2.2q-.125-.275-.375-.413T8 12H3.05q.375-3.375 2.925-5.688T12 4q1.55 0 2.975.5t2.675 1.45l1.4-1.4l1.4 1.4l-1.4 1.4q.8 1.05 1.275 2.213T20.95 12h-4.325L14.9 8.55q-.275-.575-.9-.575t-.9.575l-3.1 6.2ZM12 22q-3.475 0-6.025-2.313T3.05 14h4.325L9.1 17.45q.275.575.9.575t.9-.575l3.1-6.2l1.1 2.2q.125.275.375.413T16 14h4.95q-.375 3.375-2.925 5.687T12 22Z"
+                />
+              </svg>
+            </div>
+            <div class="card-title">
+              <h2>Efficient Resource Management</h2>
+            </div>
+          </div>
+          <div class="card-inner">
+            <p>
+              A well-managed project utilizes resources effectively, maximizing
+              productivity and minimizing delays.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="service">
+          <div class="service-img">
+            <img src="images/ben2.jpg" alt="consulting" />
+          </div>
+          <div class="service-text">
+            <h3>Providing accurate project cost estimates</h3>
+            <p>
+              Accurately estimating project costs is crucial to ensure the
+              project is completed within budget and on time. It involves
+              gathering data, analyzing trends, breaking down the project, and
+              utilizing cost estimation software. The estimate is reviewed and
+              updated as necessary throughout the project to reflect changes.
+            </p>
+          </div>
+        </div>
+        <div class="service service-reverse">
+          <div class="service-img">
+            <img src="images/ben1.jpg" alt="management" />
+          </div>
+          <div class="service-text">
+            <h3>Developing and maintaining project schedules</h3>
+            <p>
+              To achieve project success, it's essential to develop and maintain
+              a detailed project schedule. This includes creating a plan,
+              assigning tasks, and updating the schedule as needed.
+              Communication and coordination with team members are crucial for
+              effective scheduling. By having a well-defined schedule, the team
+              can stay on track and complete the project within the desired
+              timeframe.
+            </p>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service-img">
+            <img src="images/ben3.jpg" alt="consulting" />
+          </div>
+          <div class="service-text">
+            <h3>Identifying and mitigating project risks</h3>
+            <p>
+              Identifying and mitigating project risks involves analyzing
+              potential risks, developing mitigation plans, and ongoing
+              monitoring. Effective risk management requires communication and
+              timely action. By managing risks effectively, the team can
+              minimize negative impacts and ensure the project is completed
+              successfully.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="review-cards">
+        <div class="review-card">
+          <div class="review-card-img">
+            <img src="images/ben1.jpg" alt="Ben" />
+          </div>
+          <div class="review-card-text">
+            <p>
+              "Ben is a great project manager. He is very organized and
+              communicates well with the team. He is also very knowledgeable and
+              has a great eye for detail. I would highly recommend him for any
+              project management role."
+            </p>
+            <h3>John Doe</h3>
+            <p>CEO, ABC Company</p>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-card-img">
+            <img src="images/ben2.jpg" alt="Ben" />
+          </div>
+          <div class="review-card-text">
+            <p>
+              "Ben is a great project manager. He is very organized and
+              communicates well with the team. He is also very knowledgeable and
+              has a great eye for detail. I would highly recommend him for any
+              project management role."
+            </p>
+            <h3>John Doe</h3>
+            <p>CEO, ABC Company</p>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-card-img">
+            <img src="images/ben3.jpg" alt="Ben" />
+          </div>
+          <div class="review-card-text">
+            <p>
+              "Ben is a great project manager. He is very organized and
+              communicates well with the team. He is also very knowledgeable and
+              has a great eye for detail. I would highly recommend him for any
+              project management role."
+            </p>
+            <h3>John Doe</h3>
+            <p>CEO, ABC Company</p>
+          </div>
+        </div>
+      </section>
+      <!-- create accordion for FAQs -->
+      <section class="accordion">
+        <h2>Frequently Asked Questions</h2>
+        <p id="FAQ-more">
+          FAQs, or Frequently Asked Questions, are a helpful resource that
+          provides quick and concise answers to commonly asked questions,
+          regardless of whether you're a customer, stakeholder, or just curious
+          about project control.
+        </p>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            <h3>What is project planning, and why is it important?</h3>
+          </div>
+          <div class="accordion-item-body">
+            <p>
+              Project planning is the process of defining project goals,
+              identifying tasks, estimating resources, and establishing
+              timelines. It's important because it creates a clear and
+              structured approach to project execution, minimizes risks, ensures
+              efficient resource use, and establishes realistic expectations for
+              stakeholders. Effective project planning is crucial for successful
+              project completion.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            <h3>What tools do you use for project control?</h3>
+          </div>
+          <div class="accordion-item-body">
+            <p>
+              Project control specialists use a range of tools to manage and
+              control project activities, including project management software,
+              Earned Value Management (EVM) tools, risk management software,
+              cost estimating software, Gantt charts, change management tools,
+              and communication tools. The specific tools used depend on the
+              project and stakeholder needs.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            <h3>How do you track project progress?</h3>
+          </div>
+          <div class="accordion-item-body">
+            <p>
+              A project control specialist tracks project progress by monitoring
+              actual project performance against the project plan using progress
+              reports, status meetings, and data analysis. They use various
+              methods to identify any deviations from the project plan and take
+              corrective actions to keep the project on track.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            <h3>
+              How does a project control specialist communicate project status
+              to stakeholders?
+            </h3>
+          </div>
+          <div class="accordion-item-body">
+            <p>
+              A project control specialist communicates project status to
+              stakeholders through regular status reports, meetings, and
+              presentations. They provide updates on project progress, budget,
+              and timeline. They also highlight any potential risks or issues
+              that may impact the project. In addition, they work with project
+              team members to gather and report on relevant data, including
+              project milestones, deliverables, and other key performance
+              indicators. By effectively communicating project status to
+              stakeholders, project control specialists ensure that all parties
+              are informed and aligned on the project's progress and
+              performance.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-item-header">
+            <h3>
+              How do you ensure that projects are completed on time and within
+              budget?
+            </h3>
+          </div>
+          <div class="accordion-item-body">
+            <p>
+              As a project control specialist, they ensure that projects are
+              completed on time and within budget by monitoring project progress
+              and performance against the project plan. They use various tools
+              and techniques to track project costs, schedules, and resources,
+              and identify any potential risks or issues that may impact project
+              delivery. They also work with the project team to develop
+              contingency plans and take corrective actions as needed to keep
+              the project on track. Effective communication with stakeholders is
+              also crucial to ensuring that all parties are informed and aligned
+              on project progress and any changes that may impact the project
+              timeline or budget. By proactively managing project risks and
+              communicating effectively with stakeholders, project control
+              specialists can help ensure that projects are completed on time
+              and within budget.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="Call-To-Action">
+        <h2>Ready to get started?</h2>
+        <p>Take the Next Step: Contact Us Today!</p>
+        <a href="./contact.html" class="btn CTA">Get started</a>
+      </section>
+      <footer>
+        <div class="footer-content container">
+          <div class="left-box">
+            <div class="logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="256"
+                height="256"
+                viewBox="0 0 256 256"
+              >
+                <path
+                  fill="currentColor"
+                  d="M176 156a12 12 0 1 1-12-12a12 12 0 0 1 12 12Zm-84-12a12 12 0 1 0 12 12a12 12 0 0 0-12-12Zm148 24v24a16 16 0 0 1-16 16H32a16 16 0 0 1-16-16v-22.87a113.38 113.38 0 0 1 35.4-82.41L26.34 61.66a8 8 0 0 1 11.32-11.32L63.82 76.5a111.43 111.43 0 0 1 128.55-.19l26-26a8 8 0 0 1 11.32 11.32L204.82 86.5c.75.71 1.5 1.43 2.24 2.17A111.25 111.25 0 0 1 240 168Zm-16 0a96 96 0 0 0-96-96h-.34C74.91 72.18 32 115.75 32 169.13V192h192Z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="right-box">
+            <div class="about">
+              <h2>Pages</h2>
+              <ul>
+                <li>
+                  <a class="footer-link" href="./index.html">Home</a>
+                </li>
+                <li>
+                  <a class="footer-link" href="./products.html">Services</a>
+                </li>
+                <li>
+                  <a class="footer-link" href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="social-media">
+              <h2>Follow us</h2>
+              <ul>
+                <li>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script defer src="app.js"></script>
+  </body>
+</html>
