@@ -76,13 +76,12 @@ body {
   top: 0;
   width: 100%;
   z-index: 1;
-  padding: 1rem;
+  padding: 0.5rem 2rem;
   position: relative;
 }
 .logo svg {
-  width: 64px;
-  height: 64px;
-  padding-left: 4rem;
+  max-width: 64px;
+  max-height: 64px;
 }
 .navbar > #nav-links {
   display: flex;
